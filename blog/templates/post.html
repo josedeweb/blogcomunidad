@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% for Post in post %}
+        {{ Post.title }}
+        {{ Post.created }}
+        <img src="{{ MEDIA_URL }}{{ Post.img }}">
+        {{ Post.content }}
+    {% endfor %}
+{% endblock %}
