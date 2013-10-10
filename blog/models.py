@@ -19,5 +19,5 @@ class Post(AuditedModel):
         self.slug = self.title.lower().replace(' ', '-')
         super(Post, self).save(*args, **kwargs)
 
-    def __str__(self):
+    def __unicode__(self):
         return self.title
