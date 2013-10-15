@@ -1,6 +1,6 @@
 # Django settings for blogcomunidad project.
 import os
-PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir))
+PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -35,7 +35,7 @@ STATIC_ROOT = ''
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(PATH, 'static')
+    os.path.join(PROJECT_PATH, 'static'),
 )
 
 STATICFILES_FINDERS = (
