@@ -1,9 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
     {% for Post in posts %}
-        <h1>Titulo: {{ Post.title }}</h1>
-        <h3>Creado: {{Post.created}}</h3>
-        <img src="{{ MEDIA_URL }}{{ Post.img }}">
-        <a href={{ Post.slug }}> Ver más </a>
+    	<figure>
+    		<img src="{{ MEDIA_URL }}{{ Post.img }}">
+    	</figure>
+        <section class="content">
+        	<h2>{{ Post.title }}</h2>
+        	<h3>{{Post.created}}</h3>
+        	<a href={{ Post.slug }}> Ver más </a>
+        </section>
     {% endfor %}
 {% endblock %}

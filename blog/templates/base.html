@@ -1,12 +1,29 @@
 {% load staticfiles %}
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset ="utf-8">
     <title>Blog comunidad</title>
     <link rel="stylesheet" href="{% static "css/styles.css" %}">
+<<<<<<< HEAD
   </head>
   <body> 
     {% block content %} {% endblock %}
   </body>
+=======
+    <link href='http://fonts.googleapis.com/css?family=Rum+Raisin|Lato' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <h1>Blog Comunidad</h1>
+            <p>Agregar</p>
+            <p>Archivos</p>
+            <p>Contacto</p>
+            <p>Sobre</p>
+        </header>
+        <section class="container">
+            {% block content %} {% endblock %}
+        </section>
+    </body>
+>>>>>>> pr/1
 </html>

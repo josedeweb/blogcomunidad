@@ -1,6 +1,9 @@
 # Django settings for blogcomunidad project.
 import os
+<<<<<<< HEAD
 
+=======
+>>>>>>> pr/1
 PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 
 DEBUG = True
