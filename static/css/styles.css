@@ -1,19 +1,10 @@
-
+a {
+	color: #f8f8f8;
+	text-decoration: none;
+	
+}
 body{
 	background-color: #336699;
-}
-
-a {
-	color: #FFF;
-	background: #008FD5;
-	border-radius: 0.3em;
-	display: block;
-	font-weight: bold;
-	padding: 5px;
-	margin: 0 auto;
-	text-decoration: none;
-	text-align: center;
-	width: 20%;
 }
 
 body {
@@ -33,6 +24,7 @@ header {
 
 h1, h2 {
 	color: #F8F8F8;
+	cursor: pointer;
 	font-family: 'Lato', serif;
 	font-size: 1.8em;
 	line-height: 40px;
@@ -55,12 +47,29 @@ h3 {
 }
 
 img {
-	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 0.4em;
+	width: 170px;
+	
 }
 
 p {
 	margin-left: 10%;
 	width: 90%;
+}
+
+.button {
+	color: #FFF;
+	background: #008FD5;
+	border-radius: 0.3em;
+	display: block;
+	font-weight: bold;
+	padding: 5px;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	width: 20%;
 }
 
 .container {
@@ -75,8 +84,12 @@ p {
 .content {
 	background: #FFF;
 	color: #000;
-	height: 300px;
+	height: 200px;
 	margin-top: -36px;
 	margin-left: 40px;
 	width: 89.5%;
-} 
+}
+
+.img-post {
+	width: 100%;
+}
