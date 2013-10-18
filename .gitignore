@@ -1,7 +1,5 @@
 *.py[cod]
 
-/media/*.*
-
 # C extensions
 *.so
 
